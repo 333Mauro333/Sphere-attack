@@ -438,6 +438,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 36994145}
     m_Modifications:
+    - target: {fileID: 1211986720330700014, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: speed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211986720330700014, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: frontAxisName
+      value: RHFrontMovement
+      objectReference: {fileID: 0}
     - target: {fileID: 3279277713246911662, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
       propertyPath: m_Name
       value: Tank
@@ -485,6 +493,18 @@ PrefabInstance:
     - target: {fileID: 3279277713246911663, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855585477463393498, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855585477463393498, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: m_Center.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855585477463393498, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: m_SkinWidth
+      value: 0.0001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
