@@ -494,6 +494,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4445489715466655743, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: speed
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445489715466655743, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: rotationAxisName
+      value: RHRotationMovement
+      objectReference: {fileID: 0}
     - target: {fileID: 5855585477463393498, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
       propertyPath: m_Enabled
       value: 1
