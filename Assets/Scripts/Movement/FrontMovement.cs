@@ -10,6 +10,7 @@ namespace SphereAttack
         [SerializeField] string frontAxisName = null;
 
         [Header("Values")]
+        [Range(0.0f, 20.0f)]
         [SerializeField] float speed = 0.0f;
 
 

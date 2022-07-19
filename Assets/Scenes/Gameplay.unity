@@ -170,7 +170,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &705507994
 Light:
@@ -439,10 +439,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 36994145}
     m_Modifications:
     - target: {fileID: 1211986720330700014, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
-      propertyPath: speed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211986720330700014, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
       propertyPath: frontAxisName
       value: RHFrontMovement
       objectReference: {fileID: 0}
@@ -498,6 +494,10 @@ PrefabInstance:
       propertyPath: speed
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 4445489715466655743, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 963194227}
     - target: {fileID: 4445489715466655743, guid: e31a56035e96b534e9fa6561f7ffd1a4, type: 3}
       propertyPath: rotationAxisName
       value: RHRotationMovement
